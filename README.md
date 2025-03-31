@@ -75,3 +75,7 @@ Standard Multiple Linear Regression:
 Using OLS (Ordinary Least Squares) to model the relationship between energy indicators and natural gas prices
 Testing various combinations of predictor variables to identify the optimal feature set
 Analyzing regression diagnostics (residuals, multicollinearity, heteroscedasticity)
+
+Why Regression Modeling?
+
+The relation between weather and gas prices is very cyclical. Regression analysis was chosen because it effectively captures the relationships between independent variables (weather conditions, energy metrics, economic indicators) and the dependent variable (natural gas consumption). Multiple Linear Regression (MLR) allows us to quantify how each predictor contributes to gas consumption fluctuations, making it a suitable choice for this type of structured, numerical dataset.
