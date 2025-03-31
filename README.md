@@ -8,9 +8,6 @@ Initial Proposal:
 We are trying to predict the natural gas consumption based on 
 regional temperatures and humidity levels. 
 
-Data Collection: 
-U.S. Monthly Energy Data (USMonthlyEnergy.csv) - Contains various energy metrics including consumption, production, and weather indicators
-Natural Gas Price Data (NG_SandF.csv) - Contains historical Henry Hub spot prices for natural gas
 
 Data Modeling: A multivariate regression model will be used
 to model and fit our data. 
