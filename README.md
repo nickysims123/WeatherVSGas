@@ -1,4 +1,6 @@
 # WeatherVSGas
+# Nicholas Sima, Kaya Rahbar, Krish Asija, and Owen Reilly
+
 CS506 Spring 2025 Final Project
 
 Initial Proposal: 
