@@ -1,11 +1,12 @@
 # WeatherVSGas
 # Nicholas Sima, Kaya Rahbar, Krish Asija, and Owen Reilly
 
+# Midterm Report Video
+https://youtu.be/SFSiUapP3t8
+
 CS506 Spring 2025 Final Project
 
 Initial Proposal: 
-
-[Youtube Link Here]
 
 We are trying to predict the natural gas consumption based on 
 regional temperatures and humidity levels. 
