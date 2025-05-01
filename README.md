@@ -91,3 +91,11 @@ We generated a correlation matrix with each feature in our dataset to identify k
 
 # Further Findings:
 
+# Model Training
+We replaced our original linear approach with a LightGBM gradient boosting regressor (LGBMRegressor) configured with 200 trees, a learning rate of 0.1, and 31 leaves per tree. We then fit the model on the remaining training set. This setup takes advantage of boosting’s sequential tree-building to capture any nonlinear relationships and interactions among predictors without excessive feature engineering.
+
+# Model Performance
+Our model accuracy is quantified by RMSE and R^2 on both our training and test splits. RMSE measures average deviation in $/MMBTU, and R^2 indicates the proportion of variance explained. We then generated diagnostic plots: actual vs. predicted scatter, residual vs. predicted plot to check for bias or heteroskedasticity, and either a time-series overlay or distribution comparison depending on whether the test index is datetime.
+
+# Insights
+Raw importance scores from LightGBM reveal which variables contribute most to predictive power; these are visualized in a horizontal bar chart. To contextualize effect sizes, we also standardize all features and refit a linear model to produce standardized coefficients, offering a more interpretable ranking of drivers. Finally, when timestamps are available, we examine residuals by month in a boxplot to detect any seasonal patterns that the model may under- or over-predict.
