@@ -4,6 +4,10 @@
 # Midterm Report Video
 https://youtu.be/SFSiUapP3t8
 
+## To Execute our Code:
+### For help, execute $make help
+1. Install homebrew, a package manager
+
 CS506 Spring 2025 Final Project
 
 Initial Proposal: 
