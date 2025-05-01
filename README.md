@@ -10,7 +10,7 @@ CS506 Spring 2025 Final Project
 
 # Setup / Test Run
 ### For help on make commands, run $make help
-### Note: these instructions assume you have a working github account and git installed and configured to work on remote repositories
+### Note: these instructions assume you have a VSCode and a working github account and git installed and configured to work on remote repositories
 
 1. Install Python for your system:
 https://packaging.python.org/en/latest/tutorials/installing-packages/
@@ -18,6 +18,14 @@ https://packaging.python.org/en/latest/tutorials/installing-packages/
 2. Ensure PIP is working: 
     1. run $python -m ensurepip --upgrade
     2. The above should show something like "Requirement already satisified: pip". If not, follow instructions here: https://pip.pypa.io/en/stable/installation/
+3. Choose the "final_project" branch, then copy the ssh key given by clicking the green code button, then ssh. 
+4. Open a terminal on your device. If you are on windows, open a bash shell. More instructions here: https://www.onlogic.com/blog/how-to-enable-bash-for-windows-10-and-11/. If you are NOT on windows, proceed.
+5. run $git clone < pasted_ssh_key >
+6. run $cd WeatherVSGas
+7. run $make setup 
+8. run $source /venv/bin/activate 
+9. run $make run-vscode
+10. You should now have opened the Jupyteher Notebook containing all code in a virtual environment. You can test run the code by executing each code block in order.
 
 Initial Proposal: 
 
