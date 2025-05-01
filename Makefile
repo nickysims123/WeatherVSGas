@@ -20,8 +20,8 @@ setup:
 	$(PYTHON) -m venv $(VENV_NAME)
 	. $(VENV_NAME)/bin/activate && \
 	$(PIP) install -U pip && \
-	$(PIP) install jupyter pandas numpy matplotlib lightgbm scikit-learn seaborn ipykernel
-
+	$(PIP) install numpy scipy scikit-learn pandas matplotlib ipykernel seaborn && \
+	$(PIP) install lightgbm --no-binary lightgbm
 # Run notebook in VS Code
 run-vscode:
 	$(CODE) $(NOTEBOOK)
