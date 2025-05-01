@@ -89,7 +89,7 @@ Preliminary Regression:
 
 We generated a correlation matrix with each feature in our dataset to identify key determinants of natural gas prices. This matrix identified Electricity, Total Energy Production, Gas Supply, Coal Production, and Crude Oil Production as the five features with the highest correlation coefficients. We then regressed HH Spot Price on these five features to create our preliminary predictive model. The regression and corresponding residual plot can be found in the Python notebook. 
 
-# Further Findings:
+# Final Model + Findings:
 
 # Model Training
 We replaced our original linear approach with a LightGBM gradient boosting regressor (LGBMRegressor) configured with 200 trees, a learning rate of 0.1, and 31 leaves per tree. We then fit the model on the remaining training set. This setup takes advantage of boosting’s sequential tree-building to capture any nonlinear relationships and interactions among predictors without excessive feature engineering.
