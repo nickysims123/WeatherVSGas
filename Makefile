@@ -17,6 +17,7 @@ help:
 
 # Set up the environment
 setup:
+	$(BREW) install libomp
 	$(PYTHON) -m venv $(VENV_NAME)
 	. $(VENV_NAME)/bin/activate && \
 	$(PIP) install -U pip && \
