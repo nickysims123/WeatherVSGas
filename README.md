@@ -4,9 +4,7 @@
 # Midterm Report Video
 https://youtu.be/SFSiUapP3t8
 
-## To Execute our Code:
-### For help, execute $make help
-1. Install homebrew, a package manager
+# Final Report Video
 
 CS506 Spring 2025 Final Project
 
@@ -87,6 +85,9 @@ Why Regression Modeling?
 
 The relation between weather and gas prices is very cyclical. Regression analysis was chosen because it effectively captures the relationships between independent variables (weather conditions, energy metrics, economic indicators) and the dependent variable (natural gas consumption). Multiple Linear Regression (MLR) allows us to quantify how each predictor contributes to gas consumption fluctuations, making it a suitable choice for this type of structured, numerical dataset.
 
-Preliminary Findings:
+Preliminary Regression:
 
-We generated a correlation matrix with each feature in our dataset to identify key determinants of natural gas prices. This matrix identified Electricity, WTI Spot Price, Gas Supply, Coal Production, and Crude Oil Production as the five features with the highest correlation coefficients. We then regressed HH Spot Price on these five features to create our preliminary predictive model. The regression and corresponding residual plot can be found in the Python notebook. 
+We generated a correlation matrix with each feature in our dataset to identify key determinants of natural gas prices. This matrix identified Electricity, Total Energy Production, Gas Supply, Coal Production, and Crude Oil Production as the five features with the highest correlation coefficients. We then regressed HH Spot Price on these five features to create our preliminary predictive model. The regression and corresponding residual plot can be found in the Python notebook. 
+
+# Further Findings:
+
