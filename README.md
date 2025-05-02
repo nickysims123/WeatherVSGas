@@ -5,6 +5,8 @@
 https://youtu.be/SFSiUapP3t8
 
 # Final Report Video
+https://youtu.be/2I9v-2abMfg
+
 
 CS506 Spring 2025 Final Project
 
